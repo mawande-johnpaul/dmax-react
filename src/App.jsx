@@ -103,7 +103,7 @@ function App() {
             <br />
             📞 0753 590 735 / 0775 057 791
           </p>
-          <a href="tel:0753590735" className="btn-primary">
+          <a href="tel:+256 753590735" className="btn-primary">
             Call Now
           </a>
         </div>
