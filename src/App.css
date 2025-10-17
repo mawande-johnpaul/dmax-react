@@ -28,6 +28,14 @@
       margin: auto;
     }
 
+    .container h2{
+      color: #fff;
+    }
+
+    .container p{
+      color: #fff;
+    }
+
     .hero-container {
       width: 90%;
       max-width: 1100px;
