@@ -3,19 +3,19 @@ import "./App.css";
 function App() {
   return (
     <>
-      <header class="header">
-        <div class="container nav">
-          <h1 class="logo">DMAX COFFEE COOKIES</h1>
+      <header className="header">
+        <div className="container nav">
+          <h1 className="logo">DMAX COFFEE COOKIES</h1>
 
-          <input type="checkbox" id="nav-toggle" class="nav-toggle"></input>
-          <label for="nav-toggle" class="nav-icon">
+          <input type="checkbox" id="nav-toggle" className="nav-toggle" />
+          <label htmlFor="nav-toggle" className="nav-icon">
             &#9776;
           </label>
 
-          <nav class="nav-menu">
+          <nav className="nav-menu">
             <ul>
               <li>
-                <a href="#home" class="active">
+                <a href="#home" className="active">
                   Home
                 </a>
               </li>
@@ -36,28 +36,28 @@ function App() {
         </div>
       </header>
 
-      <section id="home" class="hero">
-        <div class="hero-container">
+      <section id="home" className="hero">
+        <div className="hero-container">
           <h2>Cookies with the Boldness of Coffee</h2>
           <p>
             Experience the perfect harmony of coffee aroma and cookie crunch
             with DMAX Coffee Cookies, baked to energize your day and delight
             your senses.
           </p>
-          <a href="#shop" class="btn-primary">
+          <a href="#shop" className="btn-primary">
             Order Now
           </a>
         </div>
       </section>
 
-      <section id="about" class="about">
-        <div class="container" style="color: #fff;">
-          <h2 style="color: #fff;">About Us</h2>
+      <section id="about" className="about">
+        <div className="container">
+          <h2>About Us</h2>
           <img
             src="dmax.jpg"
             alt="DMAX Coffee Cookies"
-            style="width:300px; border-radius:10px; margin-bottom:1rem; border: 2px solid #fff;"
-          ></img>
+            className="about-image"
+          />
           <p>
             At DMAX Coffee Cookies, we blend rich, roasted coffee beans into
             buttery cookie dough, creating an unforgettable fusion of flavors.
@@ -67,17 +67,17 @@ function App() {
         </div>
       </section>
 
-      <section id="shop" class="shop">
-        <div class="container">
-          <h2 style="color: #fff;">Our Cookies</h2>
-          <div class="products">
-            <div class="product">
-              <img src="product2.jpeg" alt="Classic Coffee Cookie"></img>
+      <section id="shop" className="shop">
+        <div className="container">
+          <h2>Our Cookies</h2>
+          <div className="products">
+            <div className="product">
+              <img src="product2.jpeg" alt="Classic Coffee Cookie" />
               <h3>Classic Coffee Cookie</h3>
               <p>A perfect blend of espresso and dark chocolate chips.</p>
             </div>
-            <div class="product">
-              <img src="classic.jpg" alt="Mocha Crunch"></img>
+            <div className="product">
+              <img src="classic.jpg" alt="Mocha Crunch" />
               <h3>Mocha Crunch</h3>
               <p>Sweet meets bold — rich mocha flavor in every bite.</p>
             </div>
@@ -85,23 +85,25 @@ function App() {
         </div>
       </section>
 
-      <section id="blog" class="blog">
-        <div class="container">
-          <h2 style="color: #fff;">Our Blog</h2>
-          <p style="color: #fff;">
+      <section id="blog" className="blog">
+        <div className="container">
+          <h2>Our Blog</h2>
+          <p>
             Explore cookie recipes, coffee pairings, and stories behind our
             bakery creations.
           </p>
         </div>
       </section>
 
-      <section id="contact" class="contact">
-        <div class="container">
-          <h2 style="color: #fff;">Contact Us</h2>
-          <p style="color: #fff;">
-            Visit us at Makerere Kikoni<br>📞 0753 590 735 / 0775 057 791</br>
+      <section id="contact" className="contact">
+        <div className="container">
+          <h2>Contact Us</h2>
+          <p>
+            Visit us at Makerere Kikoni
+            <br />
+            📞 0753 590 735 / 0775 057 791
           </p>
-          <a href="tel:0753590735" class="btn-primary" style="color: #fff;">
+          <a href="tel:0753590735" className="btn-primary">
             Call Now
           </a>
         </div>
